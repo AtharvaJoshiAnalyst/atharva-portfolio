@@ -1,0 +1,42 @@
+name: Sync GitHub data
+
+on:
+  # Run every Monday at 06:00 UTC
+  schedule:
+    - cron: '0 6 * * 1'
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync GitHub data
+        env:
+          # GITHUB_TOKEN is auto-provided by Actions — works for public repo data
+          # and unlocks GraphQL mode (pinned repos)
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: set GITHUB_USERNAME repo variable if different from script default
+          GITHUB_USERNAME: ${{ vars.GITHUB_USERNAME }}
+        run: node scripts/sync-github.mjs
+
+      - name: Commit changes if any
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain src/data/github.json)" ]]; then
+            git add src/data/github.json
+            git commit -m "chore: sync GitHub data [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi

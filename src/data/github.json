@@ -1,8 +1,41 @@
 {
-  "syncedAt": "2026-05-09T21:55:50.568Z",
+  "syncedAt": "2026-05-11T09:33:30.958Z",
   "username": "AtharvaJoshiAnalyst",
-  "mode": "rest",
+  "mode": "graphql",
   "items": [
+    {
+      "name": "Sentiment-Prediction",
+      "description": null,
+      "url": "https://github.com/AtharvaJoshiAnalyst/Sentiment-Prediction",
+      "stars": 0,
+      "forks": 0,
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "updatedAt": "2025-03-26T15:09:11Z",
+      "pinned": true
+    },
+    {
+      "name": "Automotive-analysis-Logistic-regression-and-KNN-clasiifier",
+      "description": "This project was about analyzing trends and patterns in UK government vehicles and classify them according to gender. Extracted all the data with Beautifulsoup library from web pages which reduced time for data entry.  Used different Machine learning techniques to classify data and find pattern in Women and Men car preference which can help Automobile industry in sales. Used Pandas, Keras, scikit-learn and Beautifulsoup libraries for this project",
+      "url": "https://github.com/AtharvaJoshiAnalyst/Automotive-analysis-Logistic-regression-and-KNN-clasiifier",
+      "stars": 0,
+      "forks": 0,
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "updatedAt": "2022-02-23T11:57:59Z",
+      "pinned": true
+    },
+    {
+      "name": "Twitter-SQL",
+      "description": "Mini project which consists of 4 million tweets. Used ER Diagram to classify relationships between entities and used queries to filter and analyze data. ",
+      "url": "https://github.com/AtharvaJoshiAnalyst/Twitter-SQL",
+      "stars": 0,
+      "forks": 0,
+      "language": "PLpgSQL",
+      "languageColor": "#336790",
+      "updatedAt": "2022-02-23T12:00:07Z",
+      "pinned": true
+    },
     {
       "name": "Google-Data-Analysis-Case-study-Cyclists",
       "description": "Google Data Analytics Case study for cyclists. The file describes all the steps on how to approach the problem and analyze data.",
@@ -10,7 +43,7 @@
       "stars": 0,
       "forks": 0,
       "language": "Jupyter Notebook",
-      "languageColor": null,
+      "languageColor": "#DA5B0B",
       "updatedAt": "2026-01-14T21:35:57Z",
       "pinned": false
     },
@@ -21,19 +54,8 @@
       "stars": 0,
       "forks": 0,
       "language": "HTML",
-      "languageColor": null,
+      "languageColor": "#e34c26",
       "updatedAt": "2025-11-01T14:28:07Z",
-      "pinned": false
-    },
-    {
-      "name": "Sentiment-Prediction",
-      "description": null,
-      "url": "https://github.com/AtharvaJoshiAnalyst/Sentiment-Prediction",
-      "stars": 0,
-      "forks": 0,
-      "language": "Jupyter Notebook",
-      "languageColor": null,
-      "updatedAt": "2025-03-26T15:09:11Z",
       "pinned": false
     },
     {
@@ -45,28 +67,6 @@
       "language": null,
       "languageColor": null,
       "updatedAt": "2022-04-16T16:43:40Z",
-      "pinned": false
-    },
-    {
-      "name": "Twitter-SQL",
-      "description": "Mini project which consists of 4 million tweets. Used ER Diagram to classify relationships between entities and used queries to filter and analyze data. ",
-      "url": "https://github.com/AtharvaJoshiAnalyst/Twitter-SQL",
-      "stars": 0,
-      "forks": 0,
-      "language": "PLpgSQL",
-      "languageColor": null,
-      "updatedAt": "2022-02-23T12:00:07Z",
-      "pinned": false
-    },
-    {
-      "name": "Automotive-analysis-Logistic-regression-and-KNN-clasiifier",
-      "description": "This project was about analyzing trends and patterns in UK government vehicles and classify them according to gender. Extracted all the data with Beautifulsoup library from web pages which reduced time for data entry.  Used different Machine learning techniques to classify data and find pattern in Women and Men car preference which can help Automobile industry in sales. Used Pandas, Keras, scikit-learn and Beautifulsoup libraries for this project",
-      "url": "https://github.com/AtharvaJoshiAnalyst/Automotive-analysis-Logistic-regression-and-KNN-clasiifier",
-      "stars": 0,
-      "forks": 0,
-      "language": "Jupyter Notebook",
-      "languageColor": null,
-      "updatedAt": "2022-02-23T11:57:59Z",
       "pinned": false
     }
   ]

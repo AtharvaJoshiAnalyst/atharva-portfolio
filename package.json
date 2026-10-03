@@ -10,6 +10,7 @@
     "sync:github": "node scripts/sync-github.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "framer-motion": "^11.11.0",
     "lucide-react": "^0.460.0",
     "react": "^18.3.1",

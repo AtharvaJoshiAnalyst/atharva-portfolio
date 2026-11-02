@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-26T12:09:01.749Z",
+  "syncedAt": "2026-11-02T14:37:22.590Z",
   "username": "AtharvaJoshiAnalyst",
   "mode": "graphql",
   "items": [
@@ -37,6 +37,17 @@
       "pinned": true
     },
     {
+      "name": "sentiment-predictor",
+      "description": null,
+      "url": "https://github.com/AtharvaJoshiAnalyst/sentiment-predictor",
+      "stars": 0,
+      "forks": 0,
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "updatedAt": "2026-10-28T22:00:35Z",
+      "pinned": false
+    },
+    {
       "name": "Google-Data-Analysis-Case-study-Cyclists",
       "description": "Google Data Analytics Case study for cyclists. The file describes all the steps on how to approach the problem and analyze data.",
       "url": "https://github.com/AtharvaJoshiAnalyst/Google-Data-Analysis-Case-study-Cyclists",
@@ -45,17 +56,6 @@
       "language": "Jupyter Notebook",
       "languageColor": "#DA5B0B",
       "updatedAt": "2026-01-14T21:35:57Z",
-      "pinned": false
-    },
-    {
-      "name": "sentiment-predictor",
-      "description": null,
-      "url": "https://github.com/AtharvaJoshiAnalyst/sentiment-predictor",
-      "stars": 0,
-      "forks": 0,
-      "language": "HTML",
-      "languageColor": "#e34c26",
-      "updatedAt": "2025-11-01T14:28:07Z",
       "pinned": false
     },
     {
